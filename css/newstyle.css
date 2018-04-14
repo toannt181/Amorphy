@@ -6,6 +6,12 @@
   background-image: url("../images/back04.png");
 }
 
+.bg-back-06 {
+  background-image: url("../images/back06.png");
+  width: 64px;
+  height: 64px;
+}
+
 .bg-black {
   background: black;
 }
@@ -20,6 +26,10 @@
 
 p {
   margin-bottom: 8px;
+}
+
+.p-4px {
+  padding: 4px;
 }
 
 #contents1 p {
@@ -39,6 +49,10 @@ p {
   padding: 0 16px;
 }
 
+#logosp.logosp-home {
+  top: 0px;
+}
+
 .w-22 {
   width: 22%;
 }
@@ -56,6 +70,9 @@ p {
   }
   #index-box-date .text13 {
     text-align: left;
+  }
+  #logosp {
+    visibility: hidden;
   }
 }
 
