@@ -1,0 +1,72 @@
+.bg-black-02 {
+  background-image: url("../images/back02.png");
+}
+
+.bg-back-04 {
+  background-image: url("../images/back04.png");
+}
+
+.bg-black {
+  background: black;
+}
+
+.bg-white {
+  background: white;
+}
+
+.logosp {
+  top: -64px;
+}
+
+p {
+  margin-bottom: 8px;
+}
+
+#contents1 p {
+  margin-bottom: 0;
+}
+
+#logosp {
+  height: 64px;
+  width: 100%;
+  left: 0;
+  display: flex;
+  align-items: center;
+  top: -64px;
+  position: absolute;
+  visibility: visible;
+  background: black;
+  padding: 0 16px;
+}
+
+.w-22 {
+  width: 22%;
+}
+
+#index-box-4 a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  #index-box-4>div {
+    flex: 0 0 22%;
+  }
+  #index-box-date>div {
+    flex: 0 0 24%;
+  }
+  #index-box-date .text13 {
+    text-align: left;
+  }
+}
+
+.box2 {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.bg-box2 {
+  background-image: url("../images/back05.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
