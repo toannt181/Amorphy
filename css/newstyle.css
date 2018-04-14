@@ -61,6 +61,10 @@ p {
   text-decoration: none;
 }
 
+#service-list {
+  display: block;
+}
+
 @media only screen and (min-width: 1024px) {
   #index-box-4>div {
     flex: 0 0 22%;
@@ -73,6 +77,12 @@ p {
   }
   #logosp {
     visibility: hidden;
+  }
+  #service-list {
+    display: flex;
+  }
+  #service-list .item {
+    flex: 0 0 48%;
   }
 }
 
